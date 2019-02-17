@@ -5,6 +5,8 @@ import dataset as ds
 data, labels = ds.load_data()
 for i in range(0, len(labels)):
     print(i, data[i], labels[i])
+
+
 # ======================================================================================================
 
 
